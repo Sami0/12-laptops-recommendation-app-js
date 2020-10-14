@@ -1,0 +1,128 @@
+* {
+  background-color: #282c34;
+  color: white;
+}
+
+.ImageLaptop {
+  align-content: center;
+  width: 400px;
+}
+.App {
+  background-color: #282c34;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  margin: 100px;
+  align-content: center;
+}
+
+.RLaptopBox {
+  border: 10px solid #4caf50;
+  color: white;
+  line-height: 200%;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.RLaptopBox li {
+  background-color: #282c34;
+
+  color: white;
+}
+
+.R-results-B {
+  font-size: 20px;
+  color: #4caf50;
+  border: 3px solid #4caf50;
+  margin: 10px;
+  padding: 10px;
+}
+
+#NO-Results-Box {
+  font-size: 20px;
+  color: #af5b4c;
+  border: 3px solid #af5b4c;
+  margin: 10px;
+  padding: 10px;
+}
+
+.testing-green {
+  background-color: #4f9d66;
+  color: black;
+  line-height: 200%;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.testing-green p {
+  background-color: #4f9d66;
+  color: black;
+  line-height: 200%;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.testing-blue {
+  background-color: #447684;
+  color: black;
+  line-height: 200%;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.testing-yellow {
+  background-color: #c9db60;
+  color: black;
+  line-height: 200%;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.testing-purple {
+  background-color: #303f9f;
+  color: black;
+  line-height: 200%;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.back-button {
+  background-color: #af5b4c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.submit-button:hover {
+  background-color: #10621e;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
