@@ -18,9 +18,11 @@ the app is built with programmers and people who care about RAM and storage memo
 
 it helps the user see how PureOS, Ubuntu, Mac , Windows compare.
 
-data is stored as simple js objects since the combination is limited, we know the limitation of this approach and why it's not scalable.
+the data is stored as simple js objects in one file, because the combination of choices is limited.
 
-however when there is small business selling only 12 products or when the use case is any fixed pre-determined data this is an appropriate approach , especially when development speed is the priority and not scalability.
+we know the limitation of the code structure and why it's not scalable.
+
+however when there is small business selling only 12 products or when the use case is any fixed pre-determined data this is an appropriate approach, especially when development speed is the priority and not scalability.
 
 this is also a demonstration for how plain js can be useful without any js libraries or frameworks. 
 
