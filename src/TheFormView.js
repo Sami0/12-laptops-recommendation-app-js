@@ -11,7 +11,7 @@ window.TheFormView = function TheFormView() {
 <p> answering the form below will help us find the best option :</p>
 </div>
 <div class="App-header"> 
-<p> Q1 : which OS do you prefer ?  ( you can select multiple options ) </p>
+<p> Q1 : which OS do you prefer ?  </p>
   <form name="OSChoice">
   <!--option 3 ----->
   <!---<input type="radio" id="Mac-checked" value="MAC-OS" onclick="showLaptopBox()"> --->
