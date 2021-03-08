@@ -27,3 +27,5 @@ however when there is small business selling only 12 products or when the use ca
 this is also a demonstration for how plain js can be useful without any js libraries or frameworks. 
 
 see <a href="https://github.com/Sami0/react-product-recc-1"> react-product-recc-1 repo </a>for implmentation of encapsulation using react library to make the code more reusable. 
+
+<p>* please note that prices reflect data collected in (august - september 2020) </p>
