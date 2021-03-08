@@ -8,7 +8,6 @@ window.TheFormView = function TheFormView() {
   <div class="App">
 <div><img class="ImageLaptop" src="https://storage.googleapis.com/test28764/Laptopicon.png">
 <h2> Find the perfect laptop you've been looking for</h2>
-<p> answering the form below will help us find the best option :</p>
 </div>
 <div class="App-header"> 
 <p> Q1 : which OS do you prefer ?  </p>
