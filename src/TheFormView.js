@@ -52,7 +52,6 @@ window.TheFormView = function TheFormView() {
 <div class="R-results-B" id="laptop-performance"></div>
 <br>
 <div class="R-results-B" id="laptop-price">
-<p>* please note that prices reflect data collected in (august - september 2020) </p>
 </div>
 <br>
 <div class="R-results-B" id="laptop-link"></div>
