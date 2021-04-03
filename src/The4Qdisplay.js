@@ -10,30 +10,31 @@ window.The4QView = function The4QView() {
   var OSselectedP = document.getElementById("PURE-OS");
   var OSselectedW = document.getElementById("WINDOWS-OS");
 
+ 
   var QuestionTwo =
-    "<div class='testing-green'>" +
-    " <p> Q2 : do you need more than 1000 GB of storage ?</p>" +
-    ' <form>  <input type="radio" id="4000GB" name="storage-choice"  value="4000GB">  <label>  Yes, I need MOST storage 4TB (4000 GB) or more </label> <br> <br>' +
-    ' <input type="radio"  id="1000GB" name="storage-choice"  value="1000GB"> <label> I need at least 1 TB = 1000 GB   </label><br> <br>' +
-    '<input type="radio"  id="500GB" name="storage-choice"  value="500GB"> <label>No, it is nice to have more but I can work with 500 GB  </label> <br> <br>' +
-    '  <input type="radio"  id="100GB" name="storage-choice"  value="100GB"> <label> No, even less than 100 GB is fine.  </label> <br> <br></form>' +
+    "<div class='choiceStyle'>"+
+    " <p>  do you need more than 1000 GB of storage ?<p>" +
+    ' <form>  <input type="radio" id="4000GB" name="storage-choice"  value="4000GB">  <label> 4TB (4000 GB) or more </label> <div id="xsLabel">  I need the Most storage possible</div> <br> <br>' +
+    ' <input type="radio"  id="1000GB" name="storage-choice"  value="1000GB"> <label> at least 1 TB = 1000 GB   </label> <div id="xsLabel">  1000 gb is necessary</div><br> <br>' +
+    '<input type="radio"  id="500GB" name="storage-choice"  value="500GB"> <label> 500 GB <div id="xsLabel">  500 GB is good enough </div> </label> <br> <br>' +
+    '  <input type="radio"  id="100GB" name="storage-choice"  value="100GB"> <label> 100 gb or less   </label><div id="xsLabel">  even less than 100 GB is fine.</div> </label> <br> <br></form>' +
     "</div>";
 
   var QuestionThree =
-    "<div class='testing-green'>" +
-    " <p> Q3 : What is your RAM Memory / speed preference </p>" +
-    '<form> <input type="radio"   id="64GB" name="RAM-choice"  value="64GB">  <label> fastest speed available is top priority  (64 GB) </label> <br><br>' +
-    '<input type="radio"   id="16_32GB" name="RAM-choice"  value="16_32GB">   <label> it needs to be at least (16GB - 32 GB)   </label>' +
-    '<br><br><input type="radio"   id="4_8GB" name="RAM-choice"  value="4_8GB"> <label> most basic speed is okay (4GB-8GB )  </label></form>' +
+    "<div class='choiceStyle'>" +
+    " <p>  What is your RAM Memory / speed preference </p>" +
+    '<form> <input type="radio"   id="64GB" name="RAM-choice"  value="64GB">  <label> (64 GB)</label> <div id="xsLabel"> fastest speed available is top priority </div>   <br><br>' +
+    '<input type="radio"   id="16_32GB" name="RAM-choice"  value="16_32GB">   <label> (16GB - 32 GB)</label> <div id="xsLabel"> moderate speed  </div>'  +
+    '<br><br><input type="radio"   id="4_8GB" name="RAM-choice"  value="4_8GB"> <label>(4GB-8GB )</label> <div id="xsLabel"> most basic speed is okay   </div></form>' +
     "</div>";
 
   var QuestionFour =
-    "<div class='testing-green'>" +
-    " <p> Q4 : What is your Price range for total value </p>" +
-    '<form> <input type="radio"  id="<1000" name="PriceR-choice"  value="<1000"><label>less than $1000  </label><br>' +
-    ' <input type="radio"  id="1000-1500" name="PriceR-choice"  value="app1500"> <label>-$1000-1500 </label> <br>' +
-    '<input type="radio"  id="1500-2000" name="PriceR-choice"  value="app2000"> <label>-1500-$2000 </label> <br>' +
-    '<input type="radio"  id="2000-3500" name="PriceR-choice"  value="app3500"><label>-2000-3500 </label> <br>' +
+    "<div class='price-choice'>" +
+    " <p> What is your Price range for total value </p>" +
+    '<form> <input type="radio"  id="<1000" name="PriceR-choice"  value="<1000"><label>less than $1000  </label><br><br>' +
+    ' <input type="radio"  id="1000-1500" name="PriceR-choice"  value="app1500"> <label>-$1000-1500 </label> <br><br>' +
+    '<input type="radio"  id="1500-2000" name="PriceR-choice"  value="app2000"> <label>-1500-$2000 </label> <br><br>' +
+    '<input type="radio"  id="2000-3500" name="PriceR-choice"  value="app3500"><label>-2000-3500 </label> <br><br>' +
     '<input type="radio"  id="3500+" name="PriceR-choice"  value="3500+"><label>- more than $3500 </label> <br> <br> </form>' +
     "</div>";
 
