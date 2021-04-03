@@ -1,5 +1,5 @@
 import "./index.js";
-import { WindowsHP1, WindowsHP2 } from "./Data.js";
+import { WindowsHP1, WindowsHP2, noLaptopFound } from "./Data.js";
 
 window.TheWFunction = function TheWFunction() {
   var OSselectedW = document.getElementById("WINDOWS-OS");
@@ -80,12 +80,34 @@ window.TheWFunction = function TheWFunction() {
 
     document.getElementById("laptop-link").innerHTML =
       "<p >store link  : </p>" + RLaptop["StoreLink"];
-  } else {
+  }  else {
     console.log("fail to render!");
     console.log("Fail");
+    var RLaptop = noLaptopFound ;
+    document.getElementById("RLaptopBox").innerHTML =
+      "<p> the laptop recommended for you is :  </p>";
+
+    console.log(RLaptop["laptopName"] + "  is recommended");
+    document.getElementById("laptop-name").innerHTML =
+      "<p> Laptop name : </p>" + RLaptop["laptopName"];
+
+    document.getElementById("laptop-performance").innerHTML =
+      "<p >RAM : </p>" +
+      RLaptop["RAM"] +
+      "<p >storage memory : </p>" +
+      RLaptop["storage"];
+
+    document.getElementById("laptop-price").innerHTML =
+      "<p >price Range : </p>" +
+      RLaptop["priceRange"] +
+      "<p >price : </p>" +
+      RLaptop["TotalPrice"];
+
+    document.getElementById("laptop-link").innerHTML =
+      "<p >store link  : </p>" + RLaptop["StoreLink"];
 
     var ALList =
-      " no results based on your selection, see our full list of laptops here ";
+      "  see our full list of laptops here ";
     var linking = ALList.link("https://dpjh9.csb.app/");
     document.getElementById("NO-Results-Box").innerHTML = linking;
   }
