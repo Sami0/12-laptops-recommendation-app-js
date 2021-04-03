@@ -14,7 +14,7 @@ window.The4QView = function The4QView() {
   var QuestionTwo =
     "<div class='choiceStyle'>"+
     " <p>  do you need more than 1000 GB of storage ?<p>" +
-    ' <form>  <input type="radio" id="4000GB" name="storage-choice"  value="4000GB">  <label> 4TB (4000 GB) or more </label> <div id="xsLabel">  I need the Most storage possible</div> <br> <br>' +
+    ' <form>  <input type="radio" id="4000GB" name="storage-choice"  value="4000GB">  <label> 4TB (4000 GB) or more </label> <div id="xsLabel">  I need the MOST storage possible</div> <br> <br>' +
     ' <input type="radio"  id="1000GB" name="storage-choice"  value="1000GB"> <label> at least 1 TB = 1000 GB   </label> <div id="xsLabel">  1000 gb is necessary</div><br> <br>' +
     '<input type="radio"  id="500GB" name="storage-choice"  value="500GB"> <label> 500 GB <div id="xsLabel">  500 GB is good enough </div> </label> <br> <br>' +
     '  <input type="radio"  id="100GB" name="storage-choice"  value="100GB"> <label> 100 gb or less   </label><div id="xsLabel">  even less than 100 GB is fine.</div> </label> <br> <br></form>' +
