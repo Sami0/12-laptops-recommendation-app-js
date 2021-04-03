@@ -1,5 +1,5 @@
 import "./index.js";
-import { UbuntuDELL1, UbuntuDELL2, UbuntuDELL3, UbuntuDELL4 } from "./Data.js";
+import { UbuntuDELL1, UbuntuDELL2, UbuntuDELL3, UbuntuDELL4 ,noLaptopFound } from "./Data.js";
 
 window.TheUbuntuFunction = function TheUbuntuFunction() {
   var OSselectedU = document.getElementById("UBUNTU-OS");
@@ -156,15 +156,36 @@ window.TheUbuntuFunction = function TheUbuntuFunction() {
       RLaptop["TotalPrice"];
     document.getElementById("laptop-link").innerHTML =
       "<p >store link  : </p>" + RLaptop["StoreLink"];
-  } else {
-    //   console.log(laptopChosenDATA);
+  }  else {
     console.log("fail to render!");
-    //   console.log(RLaptop["laptopName"]);
     console.log("Fail");
+    var RLaptop = noLaptopFound ;
+    document.getElementById("RLaptopBox").innerHTML =
+      "<p> the laptop recommended for you is :  </p>";
+
+    console.log(RLaptop["laptopName"] + "  is recommended");
+    document.getElementById("laptop-name").innerHTML =
+      "<p> Laptop name : </p>" + RLaptop["laptopName"];
+
+    document.getElementById("laptop-performance").innerHTML =
+      "<p >RAM : </p>" +
+      RLaptop["RAM"] +
+      "<p >storage memory : </p>" +
+      RLaptop["storage"];
+
+    document.getElementById("laptop-price").innerHTML =
+      "<p >price Range : </p>" +
+      RLaptop["priceRange"] +
+      "<p >price : </p>" +
+      RLaptop["TotalPrice"];
+
+    document.getElementById("laptop-link").innerHTML =
+      "<p >store link  : </p>" + RLaptop["StoreLink"];
 
     var ALList =
-      " no results based on your selection, see our full list of laptops here ";
+      "  see our full list of laptops here ";
     var linking = ALList.link("https://dpjh9.csb.app/");
     document.getElementById("NO-Results-Box").innerHTML = linking;
   }
 };
+
