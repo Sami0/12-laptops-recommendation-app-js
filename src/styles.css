@@ -1,6 +1,6 @@
 * {
-  background-color: #282c34;
-  color: white;
+  background-color: whitesmoke;
+  color: black;
 }
 
 .ImageLaptop {
@@ -8,7 +8,7 @@
   width: 400px;
 }
 .App {
-  background-color: #282c34;
+  background-color: whitesmoke;
   font-family: sans-serif;
   text-align: center;
   color: white;
@@ -24,11 +24,12 @@
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
+  
 }
 .RLaptopBox li {
-  background-color: #282c34;
 
-  color: white;
+
+  color: black;
 }
 
 .R-results-B {
@@ -48,23 +49,19 @@
 }
 
 .testing-green {
-  background-color: #4f9d66;
   color: black;
-  line-height: 200%;
-  padding: 15px 32px;
   text-align: center;
   font-size: 16px;
-  margin: 4px 2px;
+
+
 }
 
 .testing-green p {
-  background-color: #4f9d66;
-  color: black;
-  line-height: 200%;
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
+  background-color: whitesmoke;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 
 .testing-blue {
@@ -101,7 +98,19 @@
   font-size: 16px;
   margin: 4px 2px;
 }
-
+button{
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+button a {
+  background-color: #4caf50;
+  color: white;
+}
 .back-button {
   background-color: #af5b4c;
   border: none;
@@ -117,7 +126,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -125,4 +134,20 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.choiceStyle{
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#xsLabel{
+  text-align: center;
+  font-size: 16px;
+
 }
