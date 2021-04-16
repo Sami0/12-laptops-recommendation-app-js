@@ -4,7 +4,7 @@
 <br>
 
 <p>this is a simple application built with vanilla js, to recommend 12 different laptops based on 12 different user input  combinations, 
-<a href="https://qrs0v.csb.app/">demo can be seen here on codesandbox </a></p>
+<a href="https://u4ex2.csb.app/">demo can be seen here on codesandbox </a></p>
 
 the app accepts extact combination of <a href="https://dpjh9.csb.app/"> laptops listed here  </a>
 
